@@ -1,0 +1,134 @@
+@media screen and (max-width: 767px){
+    .container{
+        margin-top:10px;
+    }
+}
+.container{
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+html{
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: radial-gradient(lightblue,blue);
+    
+}
+
+h1{
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.game-info{
+    font-family: 'Creepster', cursive;
+    font-size:medium;
+    grid-row:1;
+    justify-content: left;
+}
+#correct-missed{
+    text-align: center;
+}
+.start-messege{
+    font-family:'Creepster',cursive ;
+    color:white;
+    
+}
+h2{
+    text-align: center;
+}
+.modal-title{
+    font-family: 'Creepster',cursive ;
+    font-size: medium;
+    background-color: black;
+    color:greenyellow;
+}
+.card{
+    position: absolute;
+    background:black;
+    height:50%;
+    width:50%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    align-items: center;
+    right: 25%;
+}
+.card-front > img{
+    position:absolute;
+    background-size: cover;
+    width:100%;
+    height:100%;
+
+}
+.card-back{
+    background-image: url(./images/back-card.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-face{
+    position: absolute;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style:solid;
+    
+}
+.container-btn{
+    font-family: 'Creepster',cursive;
+    width: 100%;
+    background-color: transparent;
+}
+.main-container-btn{
+    position: relative;
+ 
+}
+.symbol{
+    position:absolute;
+    width:15%;
+    height:75%;
+    left:2rem;
+    top:13%;
+    background-color:transparent;
+}
+.circle-btn{
+    left:7%;
+}
+.plus-btn{
+    left:24.8%;
+}
+.waves-btn{
+    left:42.5%;
+}
+.square-btn{
+    left:60.2%;
+}
+.star-btn{
+    left:78%;
+}
+
+
+
+.picture{
+    display:block;
+    max-width: 100%;
+    height:auto;
+}
+/* .star{
+    bottom:100px;
+    color:white;
+
+
+} */
